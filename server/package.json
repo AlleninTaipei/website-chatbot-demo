@@ -1,0 +1,13 @@
+{
+  "name": "asrock-ai-chatbot-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "本地模擬用伺服器, 服務 ASRock AI 官網靜態檔案並透過 claude cli 提供 chatbot 回覆",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

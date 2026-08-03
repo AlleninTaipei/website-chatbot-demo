@@ -1,0 +1,92 @@
+:root {
+  /* ---------- colors (Light + Bento) ---------- */
+  --bg-page: #fafafa;
+  --bg-card: #ffffff;
+  --bg-card-alt: #f5f7fa;
+  --bg-card-tint-blue: #eff6ff;
+  --bg-card-tint-violet: #f5f3ff;
+  --bg-card-tint-amber: #fffbeb;
+  --bg-card-tint-emerald: #ecfdf5;
+  --bg-card-tint-green: #f4faea;  /* ASRock brand green tint */
+  --bg-dark: #0f172a;          /* slate-900 — dark accent cells */
+  --bg-darker: #020617;         /* slate-950 — for dramatic cells */
+
+  --text: #0f172a;              /* slate-900 */
+  --text-dim: #475569;          /* slate-600 */
+  --text-muted: #94a3b8;        /* slate-400 */
+  --text-on-dark: #f8fafc;
+  --text-on-dark-dim: #cbd5e1;  /* slate-300 */
+
+  --border: rgba(15, 23, 42, 0.08);
+  --border-strong: rgba(15, 23, 42, 0.14);
+  --border-on-dark: rgba(248, 250, 252, 0.12);
+
+  --accent: #2563eb;            /* blue-600 — primary corporate */
+  --accent-hi: #1d4ed8;         /* blue-700 — hover */
+  --accent-light: #60a5fa;      /* blue-400 */
+
+  /* ASRock brand green — primary brand accent */
+  --asrock: #85c226;            /* official ASRock green from logo */
+  --asrock-hi: #6ea51e;         /* darker for hover/text on light */
+  --asrock-dark: #5b8a18;       /* darker still — for text contrast */
+  --asrock-light: #a6d653;      /* lighter green */
+  --asrock-tint: #f4faea;       /* very light tint for cell backgrounds */
+  --asrock-tint-mid: #e7f3cf;   /* mid tint */
+
+  --violet: #7c3aed;            /* violet-600 — AI tone */
+  --violet-light: #a78bfa;
+  --amber: #f59e0b;             /* award */
+  --amber-light: #fbbf24;
+  --emerald: #10b981;
+  --emerald-light: #34d399;
+  --rose: #f43f5e;
+  --cyan: #06b6d4;
+
+  /* ---------- typography ---------- */
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* ---------- spacing ---------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ---------- radii ---------- */
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 999px;
+
+  /* ---------- layout ---------- */
+  --max-w: 1200px;
+  --max-w-wide: 1400px;
+  --nav-h: 64px;
+
+  /* ---------- motion ---------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 180ms;
+  --dur-base: 280ms;
+  --dur-slow: 480ms;
+
+  /* ---------- shadows (soft, for cards) ---------- */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.06);
+  --shadow: 0 4px 12px rgba(15, 23, 42, 0.06), 0 2px 4px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08), 0 4px 8px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 24px 48px -12px rgba(15, 23, 42, 0.18);
+  --shadow-glow-blue: 0 0 0 1px rgba(37, 99, 235, 0.15), 0 12px 32px -8px rgba(37, 99, 235, 0.25);
+  --shadow-glow-green: 0 0 0 1px rgba(133, 194, 38, 0.2), 0 12px 32px -8px rgba(133, 194, 38, 0.3);
+}
