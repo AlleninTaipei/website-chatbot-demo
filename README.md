@@ -4,7 +4,7 @@
 
 ## 專案背景
 
-D:\ASRock-AI-site 原本是一個純靜態雙語行銷網站 (`index.html` 繁中版, `index.en.html` 英文版), 使用 GSAP 動畫與 bento grid 版面, 沒有任何後端或 Node.js 專案. 本次新增的 chatbot 功能包含:
+本專案原本是一個純靜態雙語行銷網站 (`index.html` 繁中版, `index.en.html` 英文版), 使用 GSAP 動畫與 bento grid 版面, 沒有任何後端或 Node.js 專案. 本次新增的 chatbot 功能包含:
 
 1. 前端浮動 widget, 視覺上沿用網站既有的 design token (顏色, 字體, 圓角, 陰影)
 2. 後端使用本機已安裝的 `claude` CLI (`claude -p`) 當作回覆引擎, 讓 chatbot 具備 ASRock AI Center 的服務知識並支援多輪對話
@@ -14,7 +14,7 @@ D:\ASRock-AI-site 原本是一個純靜態雙語行銷網站 (`index.html` 繁�
 ## 目錄結構
 
 ```
-D:\ASRock-AI-site\
+website-chatbot-demo\
 ├── index.html                  網站首頁 (繁中)
 ├── index.en.html                網站首頁 (英文)
 ├── assets\
@@ -62,7 +62,8 @@ Node.js + Express 伺服器 (server/server.js)
 前置需求: 已安裝 Node.js, 且本機終端機可直接執行 `claude` 指令並完成登入驗證.
 
 ```
-cd D:\ASRock-AI-site\server
+git clone https://github.com/AlleninTaipei/website-chatbot-demo.git
+cd website-chatbot-demo\server
 npm install
 npm start
 ```
